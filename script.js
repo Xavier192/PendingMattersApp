@@ -8,9 +8,10 @@ const uncheckedCountSpan = document.getElementById('unchecked-count')//Span que 
 window.onload=function(){//Cuando cargas la página hace
 	imprimirBotonPanico();//Cuando carga la página imprime el botón de cerrar todo.
 	button.onclick=function(){//Cuando clicas en el botón de nuevo propósito.
+		llenarArrayMetas();
 		imprimirCheckbox();//Crea la estructura li>checkbox+boton de cerrar.
 		colorearLi();//Colorea los li de dos colores diferentes , se actualiza cada 20 milisegundos. 
-		llenarArrayMetas();
+		
 		setInterval(function(){ deleteElements() }, 200);//Vigila que ninguno de los botones de los checkbox ha sido apretado, en caso contrario elimina el li.
 		setInterval(function(){ deleteAllElements() }, 200);//Vigila el botón de "close all" y si se aprieta borra todos los li con sus hijos.
 }	
