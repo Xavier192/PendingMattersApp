@@ -1,3 +1,3 @@
 # PendingMattersApp
 
-https://htmlpreview.github.io/?https://github.com/Xavier192/PendingMattersApp/blob/master/index.html
+https://raw.githack.com/Xavier192/PendingMattersApp/master/index.html
